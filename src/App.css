@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+.cooking-animation {
+    width: 450px;
+    margin-bottom: 4px;
+    animation-name: cooking; /* Set the animation name to your keyframes name */
+    animation-duration: 2s; /* Set the animation duration as needed */
+    animation-timing-function: linear; /* Set the timing function if needed */
+    animation-iteration-count: infinite; /* Set the animation to repeat infinitely or as desired */
+  }
+  @keyframes cooking {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(5px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    75% {
+      transform: translateY(5px);
+    }
+  }
